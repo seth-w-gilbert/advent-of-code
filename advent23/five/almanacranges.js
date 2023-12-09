@@ -5,6 +5,8 @@ const fs = require('fs')
 // But got the GOLD STAR
 // 1493866
 
+// I think going backwards from locations brute force would be better.
+
 const text = fs.readFileSync('./input.txt').toString('utf-8')
 // const text = fs.readFileSync('./sample.txt').toString('utf-8')
 
